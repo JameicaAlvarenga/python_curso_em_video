@@ -16,7 +16,7 @@ elif op == 2:
         print('{} - {} = {}'.format(n+i, n, (n+i) - n))
 elif op == 3:
     for i in range(a):
-        print('{} * {} = {}'.format(n, i, n * i))
+        print('{} * {} = {}'.format(n, i, n x i))
 elif op == 4:
     j = 0
     for i in range(1, a):
