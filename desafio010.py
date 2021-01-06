@@ -12,7 +12,7 @@ def conversor_dolar (self):
 
 if __name__=='__main__':
     print('Valor do dolar hoje é:',conversor_dolar('USD-BRL'))
-    n=float(input('Valor de dinheiro em carteira em reais é:'))
+    n=float(input('Quanto de dinheiro vocè tem na carteira? R$ '))
     print('Logo você pode comprar :{:.2f} dolares.'.format(n/float(conversor_dolar('USD-BRL'))))
 
 
