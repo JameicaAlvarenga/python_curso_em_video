@@ -3,10 +3,8 @@
 
 import requests
 
-
-
-def conversor_dolar (self):
-    url = f'https://economia.awesomeapi.com.br/all/{self}'
+def conversor_dolar (valor):
+    url = f'https://economia.awesomeapi.com.br/all/{valor}'
     resp = requests.get(url)
     return resp.json()['USD']['high']
 
