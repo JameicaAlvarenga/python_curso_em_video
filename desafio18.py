@@ -3,6 +3,7 @@ Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno,
 '''
 
 from math import sin,cos,tan,radians
+
 angulo = float(input('Informe o valor do angulo: '))
 sen = sin(radians(angulo))
 tan = tan(radians(angulo))
