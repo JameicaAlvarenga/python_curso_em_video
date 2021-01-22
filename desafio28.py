@@ -8,6 +8,8 @@ O programa deverá escrever na tela se o usuário venceu ou perdeu.
 
 import random
 
+print('Adivinha em que número de 0 a 5 estou pensando?' )
+
 seq = [0, 1, 2, 3, 4, 5]
 n1=random.choice(seq)
 n= int(input('Digite um valor de 0 a 5: '))
