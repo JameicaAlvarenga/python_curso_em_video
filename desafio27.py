@@ -2,8 +2,8 @@
 mostrando em seguida o primeiro e o último nome separadamente.
 '''
 
-nome =  str(input('Informe o nome: ')).strip()
+nome =(input('Informe o nome: ')).strip()
 div_nome = nome.split()
-print (div_nome)
+
 print('Nome:{}'.format(div_nome[0]))
-'''print('ultimo sobrenome: '.format())'''
+print('ultimo sobrenome: {}'.format(div_nome[len(div_nome)-1]))
