@@ -7,12 +7,16 @@ O programa deverá escrever na tela se o usuário venceu ou perdeu.
 '''
 
 import random
+from time import sleep
 
+print('*'* 100)
 print('Adivinha em que número de 0 a 5 estou pensando?' )
-
+print('*'* 100)
 
 n1=random.randint(0,5)
 n= int(input('Digite um valor de 0 a 5: '))
+print('PROCESSANDO...')
+sleep(2)
 if n > 5:
     print('Favor digitar o número de 0 a 5')
 
@@ -22,3 +26,5 @@ else:
     else:
         print('Que pena tente outra vez')
         print('Numero sorteado: {}'.format(n1))
+
+sleep(5)
